@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+font-family: "Playfair Display", serif;
+}
+
+/* styles.css */
+/* .text-clip {
+    background-image: url(../public/assets/bg1.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  } */
+  
+.text-clip {
+    background-image: url(/assets/bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
